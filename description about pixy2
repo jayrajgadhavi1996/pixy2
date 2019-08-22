@@ -1,8 +1,7 @@
 # pixy2
 #here we are interfacing pixy2 with pocketbeagle.
 
-#include <SPI.h> 
-#include <Pixy.h>
+#include <libpixyusb2.h> 
 
 Pixy pixy;
 

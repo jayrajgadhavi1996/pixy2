@@ -42,8 +42,8 @@ while(millis()<5000)
 {
  scan();
  area = width * height; //calculate the object area 
- maxArea = area + 1000;
- minArea = area - 1000;
+ maxArea = area + 800;
+ minArea = area - 800;
  }
 
  scan(); 
